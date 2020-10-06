@@ -2,7 +2,7 @@
 Automating Your Vectr Install with Vagrant & VMWare
 
 # To get started
-* git clone https://github.com/LibertyUnix/VECTR
+* git clone https://github.com/LibertyUnix/PT-VECTR
 * cd VECTR
 * vagrant init
 * vagrant up
