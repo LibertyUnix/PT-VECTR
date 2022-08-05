@@ -27,8 +27,8 @@ end
      sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose unzip
      sudo systemctl enable docker
      sudo apt install -y --no-install-recommends ubuntu-desktop
-     sudo wget https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-5.7.0/sra-vectr-runtime-5.7.0-ce.zip
-     unzip sra-vectr-runtime-5.7.0-ce.zip
+     sudo https://github.com/SecurityRiskAdvisors/VECTR/releases/download/ce-8.4.3/sra-vectr-runtime-8.4.3-ce.zip 
+     unzip sra-vectr-runtime-8.4.3-ce.zip 
      sed -i 's/sravectr.internal/vectr.internal/g' .env
      echo "127.0.0.1 vectr.internal" >> /etc/hosts 
    SHELL
